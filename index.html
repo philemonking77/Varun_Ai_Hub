@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/Varun_Ai_Hub.png" />
+    <link rel="apple-touch-icon" href="/Varun_Ai_Hub.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Varun AI Hub - AI Website Builder</title>
+    <meta name="description" content="Create websites using AI, Drag & Drop, Visual Editing, Code Editor and Import/Export tools." />
+    <meta name="keywords" content="AI website builder, drag and drop, visual editor, code editor, Varun AI Hub" />
+    <meta name="author" content="Varun AI Hub" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="application-name" content="Varun AI Hub" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Varun AI Hub" />
+    <meta property="og:title" content="Varun AI Hub - AI Website Builder" />
+    <meta property="og:description" content="Create websites using AI, Drag & Drop, Visual Editing, Code Editor and Import/Export tools." />
+    <meta property="og:image" content="/Varun_Ai_Hub.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Varun AI Hub - AI Website Builder" />
+    <meta name="twitter:description" content="Create websites using AI, Drag & Drop, Visual Editing, Code Editor and Import/Export tools." />
+    <meta name="twitter:image" content="/Varun_Ai_Hub.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Varun AI Hub",
+      "description": "Create websites using AI, Drag & Drop, Visual Editing, Code Editor and Import/Export tools.",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Web"
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>

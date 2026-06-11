@@ -1,0 +1,24 @@
+{
+  "name": "Varun AI Hub",
+  "short_name": "Varun AI Hub",
+  "description": "Create websites using AI, Drag & Drop, Visual Editing, Code Editor and Import/Export tools.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/Varun_Ai_Hub.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/Varun_Ai_Hub.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
